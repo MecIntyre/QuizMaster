@@ -14,8 +14,9 @@ public class Quiz : MonoBehaviour
     [SerializeField] Sprite correctAnswerSprite;
 
     void Start()
-    {
-        DisplayQuestion();
+    {   
+        GetNextQuestion();
+        //DisplayQuestion();
     }
 
     public void OnAnswerSelected(int index)
