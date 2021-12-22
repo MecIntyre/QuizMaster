@@ -9,8 +9,7 @@ public class Timer : MonoBehaviour
 
     public bool loadNextQuestion;
     public float fillFraction;
-
-    bool isAnsweringQuestion;
+    public bool isAnsweringQuestion;
     float timerValue;
 
     void Update()
