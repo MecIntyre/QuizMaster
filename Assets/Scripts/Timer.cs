@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    float timeToCompleteQuestion = 30f;
-    float timeToShowCorrectAnswer = 10f;
+    [SerializeField] float timeToCompleteQuestion = 30f;
+    [SerializeField] float timeToShowCorrectAnswer = 10f;
 
     public bool loadNextQuestion;
     public float fillFraction;
