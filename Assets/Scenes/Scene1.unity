@@ -1400,8 +1400,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 882adee22d7a61f46b00dc6cb2e4012b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToCompleteQuestion: 30
-  timeToShowCorrectAnswer: 10
+  timeToCompleteQuestion: 25
+  timeToShowCorrectAnswer: 5
   loadNextQuestion: 0
   fillFraction: 0
   isAnsweringQuestion: 0
@@ -1538,6 +1538,8 @@ MonoBehaviour:
   correctAnswerSprite: {fileID: 21300000, guid: 9b1fb86d6afaa6e48b06a34a36acd2e4, type: 3}
   timerImage: {fileID: 684856928}
   scoreText: {fileID: 632210001}
+  progressBar: {fileID: 1781135946}
+  isComplete: 0
 --- !u!1 &1056164512 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7509208463460251591, guid: 48114ddaa928f994f9d584b87dcd8a00, type: 3}
