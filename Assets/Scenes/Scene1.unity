@@ -1044,8 +1044,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 882adee22d7a61f46b00dc6cb2e4012b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeToCompleteQuestion: 30
+  timeToShowCorrectAnswer: 10
   loadNextQuestion: 0
   fillFraction: 0
+  isAnsweringQuestion: 0
 --- !u!1 &907530764
 GameObject:
   m_ObjectHideFlags: 0
@@ -1162,7 +1165,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 415720404}
-  question: {fileID: 11400000, guid: 2e298e0100d446e469a6a8d586f13af3, type: 2}
+  questions:
+  - {fileID: 11400000, guid: 2e298e0100d446e469a6a8d586f13af3, type: 2}
+  - {fileID: 11400000, guid: e8d4e96b1e748ac4e8f76e55b5307aa0, type: 2}
+  - {fileID: 11400000, guid: f5233f69f8ebcb24493b8037dc20335f, type: 2}
+  - {fileID: 11400000, guid: 357eabaf125ec6347939515da500b50d, type: 2}
+  - {fileID: 11400000, guid: 1a11ad86ac29baf49af163249e56dd8e, type: 2}
   answerButtons:
   - {fileID: 1056164512}
   - {fileID: 163547823}
