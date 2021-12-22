@@ -29,7 +29,7 @@ public class Quiz : MonoBehaviour
         //DisplayQuestion();
     }
 
-    void udate()
+    void Update()
     {
         timerImage.fillAmount = timer.fillFraction;
         if (timer.loadNextQuestion)
