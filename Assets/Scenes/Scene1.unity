@@ -340,13 +340,29 @@ PrefabInstance:
       value: Play Again?
       objectReference: {fileID: 0}
     - target: {fileID: 7509208462876925315, guid: 48114ddaa928f994f9d584b87dcd8a00, type: 3}
+      propertyPath: m_fontSize
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509208462876925315, guid: 48114ddaa928f994f9d584b87dcd8a00, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 9b9da761d7152284c97b3e70889f91be, type: 2}
     - target: {fileID: 7509208462876925315, guid: 48114ddaa928f994f9d584b87dcd8a00, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509208462876925315, guid: 48114ddaa928f994f9d584b87dcd8a00, type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -9098986738230022758, guid: 9b9da761d7152284c97b3e70889f91be, type: 2}
+    - target: {fileID: 7509208463460251588, guid: 48114ddaa928f994f9d584b87dcd8a00, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509208463460251588, guid: 48114ddaa928f994f9d584b87dcd8a00, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b1fb86d6afaa6e48b06a34a36acd2e4, type: 3}
     - target: {fileID: 7509208463460251589, guid: 48114ddaa928f994f9d584b87dcd8a00, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -405,11 +421,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7509208463460251590, guid: 48114ddaa928f994f9d584b87dcd8a00, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1200
+      value: 790
       objectReference: {fileID: 0}
     - target: {fileID: 7509208463460251590, guid: 48114ddaa928f994f9d584b87dcd8a00, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 115
+      value: 190
       objectReference: {fileID: 0}
     - target: {fileID: 7509208463460251590, guid: 48114ddaa928f994f9d584b87dcd8a00, type: 3}
       propertyPath: m_LocalPosition.x
@@ -461,7 +477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7509208463460251591, guid: 48114ddaa928f994f9d584b87dcd8a00, type: 3}
       propertyPath: m_Name
-      value: AgainButton
+      value: ReplayButton
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48114ddaa928f994f9d584b87dcd8a00, type: 3}
@@ -548,7 +564,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &224525756
 RectTransform:
@@ -828,8 +844,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew
-    TextNew Text
+  m_text: 'Congratulations!
+
+    YOu Scored [score]%'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9b9da761d7152284c97b3e70889f91be, type: 2}
   m_sharedMaterial: {fileID: -9098986738230022758, guid: 9b9da761d7152284c97b3e70889f91be, type: 2}
