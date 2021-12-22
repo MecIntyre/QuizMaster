@@ -648,6 +648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e32723dc07519c43bfad8930ae571ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  finalScoreText: {fileID: 415720404}
 --- !u!1 &261650248
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,7 +861,7 @@ GameObject:
   - component: {fileID: 415720405}
   - component: {fileID: 415720404}
   m_Layer: 5
-  m_Name: CongratulationText
+  m_Name: FinalScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
