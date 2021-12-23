@@ -17,6 +17,6 @@ MonoBehaviour:
   answers:
   - if
   - else if
-  - when
   - else
-  correctAnswerIndex: 3
+  - when
+  correctAnswerIndex: 2

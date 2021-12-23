@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd5d54a73be1f84a97bdc81818e3ee7, type: 3}
   m_Name: Question2
   m_EditorClassIdentifier: 
-  question: Which two words can be used interchangabl?
+  question: Which two words can be used interchangable?
   answers:
   - Blueprint & Function
   - Blueprint & Method
